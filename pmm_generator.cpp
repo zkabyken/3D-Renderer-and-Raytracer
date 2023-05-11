@@ -15,6 +15,7 @@ int main() {
     cout << "P3\n" << image_width << ' ' << image_height << "\n" << max_color << "\n";
 
     for (int j = image_height - 1; j >= 0; j--) {
+        cerr << "\rScanlines remaining: " << j << ' ' << flush;
         for (int i = 0; i < image_width; i++) {
             double r = double(i) / (image_width - 1);
             double g = double(j) / (image_height - 1);
@@ -28,5 +29,5 @@ int main() {
         }
     }
 
-    return 0;
+    cerr << "\nDone.\n";
 }
