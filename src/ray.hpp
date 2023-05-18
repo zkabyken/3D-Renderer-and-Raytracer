@@ -3,6 +3,9 @@
 
 #include "vec3.hpp"
 
+// In simple terms, a ray object is a vector with a specific direction towards which 
+// the ray "particle will flow to"
+
 class ray {
     public:
         point3 orig;
