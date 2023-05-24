@@ -4,7 +4,7 @@ CXXFLAGS := -std=c++20 -O3  # Compiler flags
 
 # Source files
 SRCS := main.cpp
-HDRS := color.hpp sphere.hpp hittable_list.hpp mathfuncs.hpp
+HDRS := color.hpp sphere.hpp hittable_list.hpp mathfuncs.hpp camera.hpp mathfuncs.hpp
 
 # Object files
 OBJS := $(SRCS:.cpp=.o)
