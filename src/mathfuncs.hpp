@@ -4,9 +4,7 @@
 #include <cmath>
 #include <limits>
 #include <memory>
-
-#include "ray.hpp"
-#include "vec3.hpp"
+#include <cstdlib>
 
 using namespace std;
 
