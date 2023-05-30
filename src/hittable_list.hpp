@@ -1,6 +1,8 @@
 #ifndef HITTABLE_LIST_H
 #define HITTABLE_LIST_H
 
+#include "mathfuncs.hpp"
+
 #include "hittable.hpp"
 
 #include <memory>

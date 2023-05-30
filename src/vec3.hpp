@@ -3,11 +3,8 @@
 
 // including a guard block to prevent multiple inclusions
 
-#include "mathfuncs.hpp"
-
 #include <cmath>
 #include <iostream>
-
 
 using namespace std;
 
