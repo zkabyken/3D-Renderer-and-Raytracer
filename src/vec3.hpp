@@ -174,6 +174,16 @@ vec3 random_unit_vector() {
     return unit_vector(random_in_unit_sphere());
 }
 
+vec3 random_in_unit_desk() {
+    while (true) {
+        vec3 p = vec3(random_double(-1, 1), random_double(-1, 1), 0);
+        if (p.length_squared() >= 1) {
+            continue;
+        }
+        return p;
+    }
+}
+
 vec3 random_in_hemisphere(const vec3& normal) {
     vec3 in_unit_sphere = random_in_unit_sphere();
     if (dot(in_unit_sphere, normal) > 0.0) // In the same hemisphere as normal
