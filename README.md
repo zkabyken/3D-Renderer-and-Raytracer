@@ -14,7 +14,23 @@ Multi-threading: Utilizes multi-threading to speed up rendering by distributing 
 
 # Usage
 
+1. Clone the repository:
+
+`git clone https://github.com/zkabyken/3D-Renderer-and-Raytracer.git`
+
+2. Build the project using the Makefile I wrote:
+
+`make`
+
+3. Run the raytracer executable and render the image into a ppm file:
+
+`./raytracer > image.ppm`
+
 # Resources 
+
+[Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html#thevec3class): The tutorial series that inspired this project and served as a guide.
+[C++ Documentation](https://en.cppreference.com/w/): Comprehensive documentation for the C++ programming language.
+
 
 # Contributing
 
